@@ -1,0 +1,222 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа,указываем язык содержимного -->
+<html lang="ru">
+<!-- Контейнер для служебных тегов(Не отображаются) -->
+
+<head>
+  <title>Portfolio-1</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+  <!-- <meta name="format-detection" content="telephone=no"> -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- <meta http-equiv="refresh" content="5; url=index.html"> -->
+  <!-- <link rel="icon" href="#" type="image/x-icon" />
+  <link rel="shortcut icon" href="#" type="image/x-icon" />
+  <meta name="keywords" content="Ключевые слова через запятую">
+  <meta name="robots" content="none">
+  <meta name="description" content="Описание страницы до 140 символов">
+  <meta name="author" content=".....">
+  <meta name="copyright" Content="....">
+  <meta name="address" content="Moscow"> -->
+  <!-- Библеотеки всех css плагинов-->
+  <link rel="stylesheet" href="css/libs.min.css">
+  <!-- Наши стили -->
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="css/media.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <a href="#" class="header__logo">Чистю<span>Ля</span></a>
+        <nav class="menu">
+          <div class="menu__btn">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <ul class="menu__list">
+            <li><a href="#" class="active">Главная</a></li>
+            <li><a href="#">Услуги</a></li>
+            <li><a href="#">Отзывы</a></li>
+            <li><a href="#">Фото</a></li>
+            <li><a href="#">Цены</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header__info-inner">
+        <div class="header__info">
+          <div class="header__info-title">
+            Уборка домов и офисов
+          </div>
+          <p class="header__info-text">
+            Уберемся в офисе после ремонта, переезда или корпоратива. Поддержим ежедневную чистоту.
+          </p>
+          <div class="header__info-link">
+            <a href="#" class="info-link">
+              Заказать
+            </a>
+          </div>
+        </div>
+        <div class="header__info-phone">
+          <a href="#">+7 (999) 777-77-77</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <section class="slider">
+        <h1>Наши услуги</h1>
+        <div class="slider__inner">
+          <div class="slider__item">
+            <img src="images/bucket.png" alt="">
+          </div>
+          <div class="slider__item">
+            <img src="images/garbage-truck.png" alt="">
+          </div>
+          <div class="slider__item">
+            <img src="images/gloves.png" alt="">
+          </div>
+          <div class="slider__item">
+            <img src="images/vacuum-cleaner.png" alt="">
+          </div>
+          <div class="slider__item">
+            <img src="images/wiper.png" alt="">
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <div class="about__wrapper">
+          <div class="about__inner">
+            <div class="about__inner-title">
+              <h1>О нас</h1>
+            </div>
+            <div class="about__inner-text">
+              Клининговая компания «Чистюля» использует только самые современные виды уборочного оборудования, чистящих
+              и моющих средств. Это позволяет производить большое количество разнообразных работ и оказывать все виды
+              клининга современного качества и по самым выгодным в московском регионе ценам.
+            </div>
+            <div class="about__inner-text about__personal">
+              В нашей компании работают специалисты, которые знакомы с особенностями различный
+              материалов. Постоянные обучающие тренинги позволяют специалистам пользоваться самыми современными видами
+              техники. Наши сотрудники могут выполнить любое поручение:
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <section class="team">
+      <div class="container">
+        <h1>Наша команда</h1>
+        <div class="team__inner">
+          <div class="team__inner-btn">
+            <button data-filter="all">Все</button>
+            <button data-filter=".category-a">Учредитель</button>
+            <button data-filter=".category-b">Генеральный директор</button>
+            <button data-filter=".category-v">Оператор</button>
+          </div>
+          <div class="team__inner-box">
+            <div class="team__item mix category-a">
+              <div class="team__item-img" style="background-image: url(images/item2.jpg);"> </div>
+              <div class="team__item-content">
+                Александ Лейко
+              </div>
+            </div>
+            <div class="team__item mix category-v">
+              <div class="team__item-img" style="background-image: url(images/item1.jpg);"> </div>
+              <div class="team__item-content">
+                Юлия Светло
+              </div>
+            </div>
+            <div class="team__item mix category-b">
+              <div class="team__item-img" style="background-image: url(images/item3.jpg);"> </div>
+              <div class="team__item-content">
+                Виталий Ви
+              </div>
+            </div>
+            <div class="team__item mix category-v">
+              <div class="team__item-img" style="background-image: url(images/item4.jpg);"> </div>
+              <div class="team__item-content">
+                Жанна Акрич
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="job">
+      <div class="container">
+        <div class="job__inner">
+          <h1>Работа с нами</h1>
+          <form>
+            <label class="name">
+              <span>Ваше имя</span>
+              <input type="text" placeholder="Юлия">
+            </label>
+            <label class="name">
+              <span>Ваше почта</span>
+              <input type="text" placeholder="Julia@index.com">
+            </label>
+            <label class="why_you">
+              Почему именно ты?
+              <textarea>
+          </textarea>
+            </label>
+            <button type="submit">Отправить сообщение</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__item">
+          <div class="footer__item-title">
+            Наши адреса
+          </div>
+          <div class="footer__item-adress">
+            <span>Г.Москва, метро ВДНХ, дом 42 корпус 5</span>
+            <span>Г.Санкт-Петербург, станция ****, дом 50 </span>
+          </div>
+        </div>
+        <div class="footer__item">
+          <div class="footer__item-title">
+            О нас
+          </div>
+          <ul>
+            <li><a href="#">О компании</a></li>
+            <li><a href="#">Контакты</a></li>
+            <li><a href="#">Отзывы</a></li>
+            <li><a href="#">Фотоотчет</a></li>
+            <li><a href="#">Другие услуги</a></li>
+          </ul>
+        </div>
+        <div class="footer__item">
+          <div class="footer__item-title">
+            Связь с нами
+          </div>
+          <div class="footer__item-adress">
+            <span>Телефон? 8 (777) 777-77-77</span>
+            <span>Email: 7777@let.com</span>
+          </div>
+        </div>
+        <div class="footer__copy">
+          Внимание! Данный сайт носит исключительно информационный характер и не является публичной офертой,
+          определяемой положениями Статьи 437 Гражданского Кодекса РФ. © 2019 «Чистюля».
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Подключаем через CDN jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- Хранение всех плагинов + минификация -->
+  <script src="js/libs.min.js"></script>
+  <!-- Наши скрипты -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
